@@ -53,7 +53,7 @@
 * ### Medium
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[2](./solution/2.md)|[61](./solution/61.md)|
+    |[2](./solution/2.md)|[19](./solution/19.md)|[24](./solution/24.md)|[61](./solution/61.md)|
 
 * ### Hard
     |    |    |    |    |    |
@@ -65,8 +65,7 @@
 * ### Medium
     |    |    |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|----|----|
-    |[17](./solution/17.md)|[19](./solution/19.md)|[22](./solution/22.md)|[24](./solution/24.md)|[39](./solution/39.md)|[☆40](./solution/40.md)|[46](./solution/46.md)|[47](./solution/47.md)|[77](./solution/77.md)|[78](./solution/78.md)|
-    |[79](./solution/79.md)|
+    |[17](./solution/17.md)|[22](./solution/22.md)|[39](./solution/39.md)|[☆40](./solution/40.md)|[46](./solution/46.md)|[47](./solution/47.md)|[77](./solution/77.md)|[78](./solution/78.md)||[79](./solution/79.md)|
     
 * ### Hard
     |    |    |    |    |    |
