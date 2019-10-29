@@ -8,9 +8,9 @@
     |----|----|----|----|----|
     |[3](./solution/3.md)|[31](./solution/31.md)|[☆55](./solution/55.md)|[☆60](./solution/60.md)|[62](./solution/62.md)||
 * ### Hard
-    |    |    |    |    |    |
-    |----|----|----|----|----|
-    |[☆32](./solution/32.md) |[☆42](./solution/42.md)|[☆76](./solution/76.md)|
+    |    |    |    |    |    |    |
+    |----|----|----|----|----|----|
+    |[☆32](./solution/32.md) |[☆42](./solution/42.md)|[☆76](./solution/76.md)|[45](./solution/45.md)|[☆84](./solution/84.md)|[85](./solution/85.md)|
 
 # 二分
 * ### Easy
@@ -29,11 +29,11 @@
 
 # 模拟
 * ### Easy
-    |    |    |    |    |    |    |    |    |    |    |
-    |----|----|----|----|----|----|----|----|----|----|
-    |[7](./solution/7.md)|[9](./solution/9.md)|[12](./solution/12.md)|[13](./solution/13.md)|[14](./solution/14.md)|[20](./solution/20.md)|[26](./solution/26.md)|[27](./solution/27.md)|[36](./solution/36.md)|[45](./solution/45.md)|
-    |[49](./solution/49.md)|[56](./solution/56.md)|[58](./solution/58.md)|[66](./solution/66.md)|[67](./solution/67.md)|[73](./solution/73.md)|[771](./solution/771.md)|[☆1021](./solution/1021.md)|[1108](./solution/1108.md)|[1221](./solution/26.md)|
-    |[lcp-1](./solution/lcp-1.md)|
+    |    |    |    |    |    |    |    |    |
+    |----|----|----|----|----|----|----|----|
+    |[7](./solution/7.md)|[9](./solution/9.md)|[12](./solution/12.md)|[13](./solution/13.md)|[14](./solution/14.md)|[20](./solution/20.md)|[26](./solution/26.md)|[27](./solution/27.md)|
+    |[36](./solution/36.md)|[49](./solution/49.md)|[56](./solution/56.md)|[58](./solution/58.md)|[66](./solution/66.md)|[67](./solution/67.md)|[73](./solution/73.md)|[771](./solution/771.md)|
+    |[☆1021](./solution/1021.md)|[1108](./solution/1108.md)|[1221](./solution/26.md)|[lcp-1](./solution/lcp-1.md)|
     
     
 
@@ -71,7 +71,7 @@
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
-    ||
+    |[37](./solution/37.md)|
 
 
 # DP
