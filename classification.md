@@ -82,9 +82,10 @@
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[☆32](./solution/32.md)|
+    |[☆32](./solution/32.md)|[1220](./solution/1220.md)|
 
 # ACM
-快速幂:[50](./solution/50.md)
+* 快速幂:[50](./solution/50.md)
+* Tarjan:[1192](./solution/1192.md)|
 
 
