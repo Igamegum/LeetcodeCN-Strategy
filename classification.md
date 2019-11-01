@@ -8,9 +8,9 @@
     |----|----|----|----|----|
     |[3](./solution/3.md)|[31](./solution/31.md)|[☆55](./solution/55.md)|[☆60](./solution/60.md)|[62](./solution/62.md)||
 * ### Hard
-    |    |    |    |    |    |    |
-    |----|----|----|----|----|----|
-    |[☆32](./solution/32.md) |[☆42](./solution/42.md)|[☆76](./solution/76.md)|[45](./solution/45.md)|[☆84](./solution/84.md)|[85](./solution/85.md)|
+    |    |    |    |    |    |    |    |    |
+    |----|----|----|----|----|----|----|----|
+    |[☆32](./solution/32.md) |[☆42](./solution/42.md)|[☆76](./solution/76.md)|[45](./solution/45.md)|[☆84](./solution/84.md)|[85](./solution/85.md)|[☆862](./solution/862.md)|
 
 # 二分
 * ### Easy
@@ -82,7 +82,7 @@
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[☆32](./solution/32.md)|[1220](./solution/1220.md)|
+    |[10](./solution/10.md)|[☆32](./solution/32.md)|[44](./solution/44.md)|[1220](./solution/1220.md)|
 
 # ACM
 * 快速幂:[50](./solution/50.md)
