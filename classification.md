@@ -2,7 +2,7 @@
 * ### Easy
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[1](./solution/1.md)|[53](./solution/53.md)|
+    |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|
 * ### Medium
     |    |    |    |    |    |
     |----|----|----|----|----|
@@ -20,7 +20,7 @@
 * ### Medium
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[☆33](./solution/33.md)|[34](./solution/34.md)|[74](./solution/74.md)|
+    |[☆33](./solution/33.md)|[34](./solution/34.md)|[74](./solution/74.md)|[81](./solution/81.md)||
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
@@ -32,8 +32,8 @@
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
     |[7](./solution/7.md)|[9](./solution/9.md)|[12](./solution/12.md)|[13](./solution/13.md)|[14](./solution/14.md)|[20](./solution/20.md)|[26](./solution/26.md)|[27](./solution/27.md)|
-    |[36](./solution/36.md)|[49](./solution/49.md)|[56](./solution/56.md)|[58](./solution/58.md)|[66](./solution/66.md)|[67](./solution/67.md)|[73](./solution/73.md)|[771](./solution/771.md)|
-    |[☆1021](./solution/1021.md)|[1108](./solution/1108.md)|[1221](./solution/26.md)|[lcp-1](./solution/lcp-1.md)|
+    |[36](./solution/36.md)|[49](./solution/49.md)|[56](./solution/56.md)|[58](./solution/58.md)|[66](./solution/66.md)|[67](./solution/67.md)|[73](./solution/73.md)|[80](./solution/80.md)|
+    |[89](./solution/89.md)|[771](./solution/771.md)|[☆1021](./solution/1021.md)|[1108](./solution/1108.md)|[1221](./solution/26.md)|[lcp-1](./solution/lcp-1.md)|
     
     
 
@@ -48,12 +48,12 @@
 * ### Easy
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[21](./solution/21.md)|[237](./solution/237.md)|
+    |[21](./solution/21.md)|[82](./solution/82.md)|[83](./solution/83.md)|[86](./solution/86.md)|[237](./solution/237.md)|
     
 * ### Medium
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[2](./solution/2.md)|[19](./solution/19.md)|[24](./solution/24.md)|[61](./solution/61.md)|
+    |[2](./solution/2.md)|[19](./solution/19.md)|[24](./solution/24.md)|[61](./solution/61.md)|[92](./solution/92.md)|
 
 * ### Hard
     |    |    |    |    |    |
@@ -63,9 +63,10 @@
 # 搜索
 * ### Easy
 * ### Medium
-    |    |    |    |    |    |    |    |    |    |    |
-    |----|----|----|----|----|----|----|----|----|----|
-    |[17](./solution/17.md)|[22](./solution/22.md)|[39](./solution/39.md)|[☆40](./solution/40.md)|[46](./solution/46.md)|[47](./solution/47.md)|[77](./solution/77.md)|[78](./solution/78.md)||[79](./solution/79.md)|
+    |    |    |    |    |    |    |    |    |
+    |----|----|----|----|----|----|----|----|
+    |[17](./solution/17.md)|[22](./solution/22.md)|[39](./solution/39.md)|[☆40](./solution/40.md)|[46](./solution/46.md)|[47](./solution/47.md)|[77](./solution/77.md)|[78](./solution/78.md)|
+    |[79](./solution/79.md)|[93](./solution/93.md)|
     
 * ### Hard
     |    |    |    |    |    |
@@ -78,7 +79,7 @@
 * ### Medium
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[63](./solution/63.md)|[64](./solution/64.md)|[70](./solution/70.md)|
+    |[63](./solution/63.md)|[64](./solution/64.md)|[70](./solution/70.md)|[91](./solution/91.md)|
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
@@ -86,6 +87,6 @@
 
 # ACM
 * 快速幂:[50](./solution/50.md)
-* Tarjan:[1192](./solution/1192.md)|
+* Tarjan:[1192](./solution/1192.md)
 
 
