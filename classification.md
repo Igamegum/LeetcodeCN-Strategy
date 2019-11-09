@@ -2,7 +2,7 @@
 * ### Easy
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|[121](./solution/121.md)|
+    |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|[121](./solution/121.md)|[136](./solution/136.md)|
 * ### Medium
     |    |    |    |    |    |
     |----|----|----|----|----|
@@ -10,7 +10,8 @@
 * ### Hard
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
-    |[☆32](./solution/32.md) |[☆42](./solution/42.md)|[☆76](./solution/76.md)|[45](./solution/45.md)|[☆84](./solution/84.md)|[85](./solution/85.md)|[☆862](./solution/862.md)|
+    |[☆32](./solution/32.md) |[☆42](./solution/42.md)|[☆76](./solution/76.md)|[45](./solution/45.md)|[☆84](./solution/84.md)|[85](./solution/85.md)|[128](./solution/128.md)|[135](./solution/135.md)|
+    |[☆862](./solution/862.md)|
 
 # 二分
 * ### Easy
@@ -69,6 +70,7 @@
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
     |[95](./solution/95.md)|[☆96](./solution/96.md)|[98](./solution/98.md)|[102](./solution/102.md)|[103](./solution/103.md)|[109](./solution/109.md)|[113](./solution/113.md)|[114](./solution/114.md)|
+    |[129](./solution/129.md)|
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
