@@ -4,8 +4,8 @@
     |----|----|----|----|----|
     |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|[121](./solution/121.md)|[136](./solution/136.md)|
 * ### Medium
-    |    |    |    |    |    |
-    |----|----|----|----|----|
+    |    |    |    |    |    |    |
+    |----|----|----|----|----|----|
     |[3](./solution/3.md)|[31](./solution/31.md)|[☆55](./solution/55.md)|[☆60](./solution/60.md)|[62](./solution/62.md)|[c](./solution/c.md)|
 * ### Hard
     |    |    |    |    |    |    |    |    |
