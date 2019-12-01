@@ -1,29 +1,49 @@
 # Problem
-[Link](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)
+[Link](https://leetcode-cn.com/problems/palindrome-partitioning-iii/)
 
 # Solution
+* DP
+* 不妨设dp[i][x]代表字符串s[0:i]分割了x次的最优值, cal[i][j]代表字符串[i:j]变成回文串需要修改的字符数量
+* 枚举 j，将字符串分割为s[0:j]和s[j + 1:i],两部分，那么显然有dp[i][x] = min(dp[i][x], dp[j][x - 1] + cal[j + 1][i])
 
-* 不妨设dp[i][j]表示步数为 i,下标在 j 的方案数，显然有dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j] + dp[i - 1][j + 1]
-* 题目中的steps最多只有500，所以j 的最大值一定不超过 steps
-* 由于更新dp[i][j] 的值只用到了上一维度的值，所以空间复杂度可以优化为 2 * steps
-* 时间复杂度O(n)
 
 # Code
 ```cpp
 class Solution {
 public:
-    long long dp[510][510];
-    int numWays(int steps, int arrLen) {
-        const int mod = 1e9 + 7;
-        memset(dp, 0, sizeof(dp));
-        dp[0][0] = 1;
-        for (int i = 1; i <= steps; ++i) {
-            for (int j = 0; j < std::min(505, arrLen); ++j) {
-                dp[i][j] = j > 0 ? ((dp[i - 1][j - 1] + dp[i - 1][j + 1]) % mod) : (dp[i - 1][j + 1]);
-                dp[i][j] = (dp[i][j] + dp[i - 1][j]) % mod;
+    int calc(const std::string &s) {
+        int p = 0;
+        int q = s.length() - 1;
+        int ans = 0;
+        while (p < q) {
+            if (s[p] != s[q]) ++ans;
+            p++;
+            q--;
+        }
+        return ans;
+    }
+    
+
+    int palindromePartition(string s, int k) {
+        
+        int cal[110][110];
+        for (int i = 0; i < s.length(); ++i) {
+            for (int j = i; j < s.length(); ++j) {
+                cal[i][j] = calc(s.substr(i, j - i + 1));
+            }
+        } 
+
+        std::vector< std::vector<int> > dp(s.length() + 1, std::vector<int>(k + 1, s.length()));
+        dp[0][0] = 0;
+        for (int i = 1; i <= s.length(); ++i) {
+            for (int x = 1; x <= k; ++x) {
+                for (int j = 0; j < i; ++j) {
+                    dp[i][x] = std::min(dp[j][x - 1] + cal[j][i - 1], dp[i][x]);
+                }
             }
         }
-        return dp[steps][0];
+        
+        return dp[s.length()][k];
     }
 };
 ```

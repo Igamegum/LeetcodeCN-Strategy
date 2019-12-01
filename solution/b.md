@@ -1,44 +1,26 @@
 # Problem
-[Link](https://leetcode-cn.com/problems/count-servers-that-communicate/)
+[Link](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/)
 
 # Solution
-
-* 直接分别标记每一行，每一列上，服务器的数量，如果某一行（某一列）上的服务器的数量大于 1 ，那么这一行（这一列）上的服务器都能通信
-* 时间复杂度O(n * m)
+* 直接推一下公式就行了
+* 假定巨汉堡的总数为 a,那么就有 4 * a + 2 * (cheeseSlices - a) = tomatoSlices,化简得(a + cheeseSlices) = tomatoSlices / 2,判断一下非法情况就行
 
 # Code
 ```cpp
 class Solution {
 public:
-    int countServers(vector<vector<int>>& grid) {
-        if (grid.size() <= 0 || grid[0].size() <= 0) return 0;
+    vector<int> numOfBurgers(int tomatoSlices, int cheeseSlices) {
+        std::vector<int> ans;
+        if (tomatoSlices & 1) return ans;
+
+        tomatoSlices = tomatoSlices / 2;
+        int a = tomatoSlices - cheeseSlices;
+        int b = cheeseSlices - a;
+        if (a < 0 || b < 0) return ans;
         
-        std::vector<int> row(grid.size(), 0);
-        std::vector<int> col(grid[0].size(), 0);
-        
-        for (int i = 0; i < grid.size(); ++i) {
-            for (int j = 0; j < grid[i].size(); ++j) {
-                if (grid[i][j] == 1) {
-                    ++row[i];
-                    ++col[j];    
-                }
-                
-            }
-        }
-        
-        int ans = 0;
-        for (int i = 0; i < grid.size(); ++i) {
-            for (int j = 0; j < grid[i].size(); ++j) {
-                if (grid[i][j] ) {
-                    if (row[i] > 1 || col[j] > 1) {
-                        ++ans;
-                    }
-                }
-            }
-        }
-        
+        ans.push_back(a);
+        ans.push_back(b);
         return ans;
-      
     }
 };
 ```
