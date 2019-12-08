@@ -90,7 +90,7 @@
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[37](./solution/37.md)|[d](./solution/d.md)|
+    |[37](./solution/37.md)|[1255](./solution/1255.md)|[d](./solution/d.md)|
 
 
 # DP
