@@ -1,49 +1,86 @@
 # Problem
-[Link](https://leetcode-cn.com/problems/palindrome-partitioning-iii/)
+[Link](https://leetcode-cn.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
 
 # Solution
-* DP
-* 不妨设dp[i][x]代表字符串s[0:i]分割了x次的最优值, cal[i][j]代表字符串[i:j]变成回文串需要修改的字符数量
-* 枚举 j，将字符串分割为s[0:j]和s[j + 1:i],两部分，那么显然有dp[i][x] = min(dp[i][x], dp[j][x - 1] + cal[j + 1][i])
 
+* 由于数据范围很小，mat只有3*3， 而每个元素只有0和1两种状态，所以总的状态数不超过2^9，直接爆搜即可
+* 时间复杂度O(2^9 * 9)
 
 # Code
 ```cpp
 class Solution {
 public:
-    int calc(const std::string &s) {
-        int p = 0;
-        int q = s.length() - 1;
-        int ans = 0;
-        while (p < q) {
-            if (s[p] != s[q]) ++ans;
-            p++;
-            q--;
+    int m;
+    int n;
+    std::set<int> S;
+    
+    bool check(const std::vector<std::vector<int>> & mat) {
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (mat[i][j] != 0) return false;
+            }
         }
-        return ans;
+        return true;
     }
     
-
-    int palindromePartition(string s, int k) {
-        
-        int cal[110][110];
-        for (int i = 0; i < s.length(); ++i) {
-            for (int j = i; j < s.length(); ++j) {
-                cal[i][j] = calc(s.substr(i, j - i + 1));
+    int hash_code(const std::vector<std::vector<int>> & mat) {
+        int sum = 0;
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                sum *= 10;
+                sum += mat[i][j];
             }
-        } 
-
-        std::vector< std::vector<int> > dp(s.length() + 1, std::vector<int>(k + 1, s.length()));
-        dp[0][0] = 0;
-        for (int i = 1; i <= s.length(); ++i) {
-            for (int x = 1; x <= k; ++x) {
-                for (int j = 0; j < i; ++j) {
-                    dp[i][x] = std::min(dp[j][x - 1] + cal[j][i - 1], dp[i][x]);
+        }
+        return sum;
+    }
+    std::vector< std::vector<int> > flip(const std::vector<std::vector<int>> & mat, int x, int y) {
+        std::vector< std::vector<int> > ans(mat);
+        ans[x][y] = 1 - ans[x][y];
+        if (x - 1 >= 0) ans[x - 1][y]  = 1 - ans[x - 1][y];
+        if (x + 1 < m)  ans[x + 1][y]  = 1 - ans[x + 1][y];
+        if (y - 1 >= 0) ans[x][y - 1]  = 1 - ans[x][y - 1];
+        if (y + 1 < n)  ans[x][y + 1]  = 1 - ans[x][y + 1];
+        return ans;
+    }
+    struct Node {
+        int step;
+        std::vector< std::vector<int> > mat;
+    };
+    
+    int BFS(const vector<vector<int>>& mat) {
+        std::queue<Node> q;
+        Node node;
+        node.mat = mat;
+        node.step = 0;
+        q.push(node);
+        S.insert(hash_code(mat));
+        
+        while (!q.empty()) {
+            node = q.front();
+            q.pop();
+            if (check(node.mat)) return node.step;
+            for (int i = 0; i < m; ++i) {
+                for (int j = 0; j < n; ++j) {
+                    Node tmp;
+                    tmp.mat = flip(node.mat, i, j);
+                    tmp.step = node.step + 1;
+                    int code = hash_code(tmp.mat);
+                    if (S.find(code) == S.end()) {
+                        S.insert(code);
+                        q.push(tmp);
+                    }
                 }
             }
         }
+        return -1;
+    }
+    
+    int minFlips(vector<vector<int>>& mat) {
+        m = mat.size();
+        n = mat[0].size();
+        S.clear();
+        return BFS(mat);
         
-        return dp[s.length()][k];
     }
 };
 ```
