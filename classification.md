@@ -73,7 +73,7 @@
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
     |[95](./solution/95.md)|[☆96](./solution/96.md)|[98](./solution/98.md)|[102](./solution/102.md)|[103](./solution/103.md)|[109](./solution/109.md)|[113](./solution/113.md)|[114](./solution/114.md)|
-    |[129](./solution/129.md)|[199](./solution/199.md)|[1261](./solution/1261.md)|
+    |[129](./solution/129.md)|[☆☆144](./solution/144.md)|[199](./solution/199.md)|[1261](./solution/1261.md)|
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
@@ -90,7 +90,7 @@
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[37](./solution/37.md)|[1255](./solution/1255.md)|[1284](./solution/1284.md)|[1293](./solution/1293.md)|
+    |[37](./solution/37.md)|[1255](./solution/1255.md)|[1263](./solution/1263.md)|[1284](./solution/1284.md)|[1293](./solution/1293.md)|
 
 
 # DP
