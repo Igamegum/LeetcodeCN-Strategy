@@ -40,7 +40,7 @@
     |[89](./solution/89.md)|[118](./solution/118.md)|[125](./solution/125.md)|[771](./solution/771.md)|[☆1021](./solution/1021.md)|[1108](./solution/1108.md)|[1221](./solution/1221.md)|[1232](./solution/1232.md)|
     |[1237](./solution/1237.md)|[1252](./solution/1252.md)|[1260](./solution/1260.md)|[1266](./solution/1266.md)|[1275](./solution/1275.md)|[1276](./solution/1276.md)|[1281](./solution/1281.md)|[1290](./solution/1290.md)|
     |[a](./solution/a.md)|
-    |[1295](./solution/1295.md)|[lcp-1](./solution/lcp-1.md)|
+    |[1295](./solution/1295.md)|[e](./solution/e.md)|[lcp-1](./solution/lcp-1.md)|
     
     
     
@@ -79,7 +79,7 @@
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
     |[95](./solution/95.md)|[☆96](./solution/96.md)|[98](./solution/98.md)|[102](./solution/102.md)|[103](./solution/103.md)|[109](./solution/109.md)|[113](./solution/113.md)|[114](./solution/114.md)|
-    |[129](./solution/129.md)|[☆☆144](./solution/144.md)|[199](./solution/199.md)|[1261](./solution/1261.md)|[c](./solution/c.md)|
+    |[129](./solution/129.md)|[☆☆144](./solution/144.md)|[199](./solution/199.md)|[1261](./solution/1261.md)|[c](./solution/c.md)|[f](./solution/f.md)|
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
@@ -91,12 +91,12 @@
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
     |[17](./solution/17.md)|[22](./solution/22.md)|[39](./solution/39.md)|[☆40](./solution/40.md)|[46](./solution/46.md)|[47](./solution/47.md)|[77](./solution/77.md)|[78](./solution/78.md)|
-    |[79](./solution/79.md)|[93](./solution/93.md)|[1239](./solution/1239.md)|
+    |[79](./solution/79.md)|[93](./solution/93.md)|[1239](./solution/1239.md)|[g](./solution/g.md)|
     
 * ### Hard
-    |    |    |    |    |    |
-    |----|----|----|----|----|
-    |[37](./solution/37.md)|[1255](./solution/1255.md)|[1263](./solution/1263.md)|[1284](./solution/1284.md)|[1293](./solution/1293.md)|
+    |    |    |    |    |    |    |    |    |
+    |----|----|----|----|----|----|----|----|
+    |[37](./solution/37.md)|[1255](./solution/1255.md)|[1263](./solution/1263.md)|[1284](./solution/1284.md)|[1293](./solution/1293.md)|[☆h](./solution/h.md)|
 
 
 # DP
