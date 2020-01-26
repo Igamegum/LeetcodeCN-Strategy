@@ -6,7 +6,7 @@
 * DP
 * 不防设dp[i][j]代表从0到第i项任务，刚好排期j天的最优解。那么状态转移只需要考虑以下两种情况。
 * 假定前i-1项任务排了j-1天，第i项任务排在第j天，那么显然有dp[i][j] = dp[i - 1][j - 1] + jobDifficulty[i]
-* 假定前i-1项任务排了j天，  第i项任务排在第j天，那么需要枚举一个最优值。 dp[i][j] = dp[x][j - 1] + max(jobDifficulty[y]){ 1 <= x <= i - 1, x < y <= i}
+* 假定前i-1项任务排了j天，  第i项任务排在第j天，那么需要枚举一个最优值。 dp[i][j] = dp[x][j - 1] + max(jobDifficulty[y]){ 0 <= x <= i - 1, x < y <= i}
 * 时间复杂度O(n * d)
 
 # Code
