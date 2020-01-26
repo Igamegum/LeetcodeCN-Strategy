@@ -118,4 +118,4 @@
 * Tarjan:[1192](./solution/1192.md)
 * 并查集:[1254](./solution/1254.md),[1319](./solution/1319.md)
 * 数学:[1250](./solution/1250.md)
-* 图论:[c](./c.md)
+* 图论:[c](./solution/c.md)
