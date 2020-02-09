@@ -1,0 +1,40 @@
+# Problem
+[Link](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/submissions/)
+
+# Solution
+
+* 直接记录数量，从大往小取即可
+* 时间复杂度O(nlogn)
+
+# Code
+```cpp
+class Solution {
+public:
+
+    int minSetSize(vector<int>& arr) {
+        std::map<int, int> mp;
+        
+        for (int i = 0; i < arr.size(); ++i) ++mp[arr[i]];
+        
+        std::vector<int> ss;
+        for (auto it = mp.begin(); it != mp.end(); ++it) {
+            ss.push_back(it->second);
+        }
+        
+        std::sort(ss.begin(), ss.end());
+        
+        int total = arr.size() / 2;
+        int ans = 0;
+        int sum = 0;
+    
+        for (int i = ss.size() - 1; i >= 0; --i) {
+            ++ans;
+            sum += ss[i];
+            if (sum >= total) break;
+        }
+    
+        return ans;
+        
+    }
+};
+```
