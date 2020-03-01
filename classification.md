@@ -7,7 +7,7 @@
     |[89](./solution/89.md)|[118](./solution/118.md)|[125](./solution/125.md)|[771](./solution/771.md)|[☆1021](./solution/1021.md)|[1108](./solution/1108.md)|[1221](./solution/1221.md)|[1232](./solution/1232.md)|
     |[1237](./solution/1237.md)|[1252](./solution/1252.md)|[1260](./solution/1260.md)|[1266](./solution/1266.md)|[1275](./solution/1275.md)|[1276](./solution/1276.md)|[1281](./solution/1281.md)|[1290](./solution/1290.md)|
     |[1295](./solution/1295.md)|[1299](./solution/1299.md)|[1304](./solution/1304.md)|[1309](./solution/1309.md)|[1313](./solution/1313.md)|[1317](./solution/1317.md)|[1323](./solution/1323.md)|[1331](./solution/1331.md)|
-    |[1337](./solution/1337.md)|[1338](./solution/1338.md)|[1342](./solution/1342.md)|[1346](./solution/1346.md)|
+    |[1337](./solution/1337.md)|[1338](./solution/1338.md)|[1342](./solution/1342.md)|[1346](./solution/1346.md)|[1351](./solution/1351.md)|[1352](./solution/1352.md)|[a](./solution/a.md)|[b](./solution/b.md)|
     |[lcp-1](./solution/lcp-1.md)|
     
     
@@ -52,7 +52,7 @@
     |----|----|----|----|----|----|----|----|
     |[95](./solution/95.md)|[☆96](./solution/96.md)|[98](./solution/98.md)|[102](./solution/102.md)|[103](./solution/103.md)|[109](./solution/109.md)|[113](./solution/113.md)|[114](./solution/114.md)|
     |[129](./solution/129.md)|[☆☆144](./solution/144.md)|[199](./solution/199.md)|[1261](./solution/1261.md)|[1302](./solution/1302.md)|[1305](./solution/1305.md)|[1315](./solution/1315.md)|
-    |[1325](./solution/1325.md)|[1339](./solution/1339.md)|
+    |[1325](./solution/1325.md)|[1339](./solution/1339.md)|[c](./solution/c.md)|
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
