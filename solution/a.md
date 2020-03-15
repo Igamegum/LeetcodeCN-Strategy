@@ -1,42 +1,41 @@
 # Problem
-[Link](https://leetcode-cn.com/problems/increasing-decreasing-string/)
+[Link](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)
 
 # Solution
 
-* 统计每个字符的出现次数，然后从小到大取一遍，再从大到小取一遍即可
-* 时间复杂度O(n)
+* 数据范围很小，直接暴力即可
+* O(n * m * (n + m))
 
 # Code
 ```cpp
 class Solution {
 public:
-    string sortString(string s) {
-        std::vector<int> num(26, 0);
-        for (int i = 0; i < s.size(); ++i) {
-            ++num[s[i] - 'a'];
+    bool check(vector<vector<int>>& matrix, int r, int c) {
+        int n = matrix.size();
+        int m = matrix[0].size();
+        for (int i = 0; i < n; ++i) {
+            if (i != r && matrix[i][c] > matrix[r][c]) return false;
         }
-
-        std::string ans;
-        int total = s.size();
-        while (total > 0) {
-            
-                for (int i = 0; i < 26; ++i) {
-                    if (num[i]) {
-                        ans += ('a' + i);
-                        --num[i];
-                        --total;
-                    }
-                }    
-            
-                for (int i = 26 - 1; i >= 0; --i) {
-                    if (num[i]) {
-                        ans += ('a' + i);
-                        --num[i];
-                        --total;
-                    }
-                }    
-            
+        
+        for (int i = 0; i < m; ++i) {
+            if (i != c && matrix[r][i] < matrix[r][c]) return false;
         }
+        
+        return true;
+    }
+    vector<int> luckyNumbers (vector<vector<int>>& matrix) {
+        std::vector<int> ans;
+        if (matrix.size() < 1) return ans;
+        
+        
+        for (int i = 0; i < matrix.size(); ++i) {
+            for (int j = 0; j < matrix[i].size(); ++j) {
+                if (check(matrix, i, j)) {
+                    ans.push_back(matrix[i][j]);
+                }
+            }
+        }
+        
         return ans;
     }
 };

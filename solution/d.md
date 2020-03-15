@@ -1,36 +1,56 @@
 # Problem
-[Link](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/)
+[Link](https://leetcode-cn.com/problems/maximum-performance-of-a-team/)
 
 # Solution
-* 对于一个节点，如果其左孩子是二叉搜索树，右孩子也是二叉搜索树，且当前节点的值大于左孩子，小于右孩子，那么以这个节点为根的子树也是二叉搜索树。
-* 遍历二叉树，自底向上维护即可。
-* 时间复杂度O(n)
+
+* 首先，将成员按照efficiency从大到小排序。
+* 枚举当前成员，以其efficiency作为所选团队的最小 efficiency，那么只需要在 efficiency 比当前成员大的成员中，选取K - 1个成员，使其 speed的和最大即可，这步可以用优先队列维护
+* 时间复杂度O(n * logn)
 
 # Code
 ```cpp
 class Solution {
 public:
-    int ans = 0;
-    std::pair<bool, int> dfs(TreeNode* root) {
-        if (root == NULL) return std::make_pair(true, 0);
-        std::pair<bool, int> lhs = dfs(root->left);
-        std::pair<bool, int> rhs = dfs(root->right);
-        int sum = lhs.second + rhs.second + root->val;
-        bool is = false;
-        if (lhs.first 
-            && rhs.first 
-            && ((root->left  != NULL && root->val > root->left->val)   || (root->left == NULL)) 
-            && ((root->right != NULL && root->val < root->right->val) || (root->right == NULL))) {
-            is = true;
-        }
-        if (is) ans = std::max(ans, sum);
-        return std::make_pair(is, sum);
-    }
-    int maxSumBST(TreeNode* root) {
-        ans = 0;
-        dfs(root);
-        return ans;
-    }
-};
+	struct Node{
+		int spd;
+		int eff;
 
+		Node(int sp, int ef) {
+			spd = sp;
+			eff = ef;
+		}
+		const bool operator < (const Node &T) const {
+			if (eff != T.eff) return eff > T.eff;
+			return spd > T.spd;
+		}
+	};
+
+	int maxPerformance(int n, vector<int>& speed, vector<int>& efficiency, int k) {
+		long long Mod = 1e9 + 7;
+		std::vector<Node> nodes;
+		
+		for (int i = 0; i < n; ++i) {
+			nodes.push_back(Node(speed[i], efficiency[i]));
+		}
+		std::sort(nodes.begin(), nodes.end());
+
+		std::priority_queue<int, vector<int>, std::greater<int>> q;
+		long long sum = 0;
+
+		long long ans = 0;
+		for (int i = 0; i < n; ++i) {
+			long long sum_spd = sum + nodes[i].spd;
+			ans = std::max(ans, sum_spd * nodes[i].eff);
+			q.push(nodes[i].spd); 
+			sum += nodes[i].spd;
+			while (q.size() > k - 1) {
+				sum -= q.top();
+				q.pop();
+			}
+		}
+
+		return ans % Mod;
+
+	}
+};
 ```
