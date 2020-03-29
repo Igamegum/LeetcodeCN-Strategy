@@ -8,7 +8,7 @@
     |[1237](./solution/1237.md)|[1252](./solution/1252.md)|[1260](./solution/1260.md)|[1266](./solution/1266.md)|[1275](./solution/1275.md)|[1276](./solution/1276.md)|[1281](./solution/1281.md)|[1290](./solution/1290.md)|
     |[1295](./solution/1295.md)|[1299](./solution/1299.md)|[1304](./solution/1304.md)|[1309](./solution/1309.md)|[1313](./solution/1313.md)|[1317](./solution/1317.md)|[1323](./solution/1323.md)|[1331](./solution/1331.md)|
     |[1337](./solution/1337.md)|[1338](./solution/1338.md)|[1342](./solution/1342.md)|[1346](./solution/1346.md)|[1351](./solution/1351.md)|[1352](./solution/1352.md)|[1365](./solution/1365.md)|[1366](./solution/1366.md)|
-    |[1370](./solution/1370.md)|[1380](./solution/1380.md)|[1381](./solution/1381.md)|[a](./solution/a.md)|[e](./solution/e.md)|
+    |[1370](./solution/1370.md)|[1380](./solution/1380.md)|[1381](./solution/1381.md)|[1385](./solution/1385.md)|[1389](./solution/1389.md)|
     |[lcp-1](./solution/lcp-1.md)|
     
     
@@ -19,7 +19,7 @@
     |----|----|----|----|----|----|----|----|
     |[6](./solution/6.md)|[8](./solution/8.md)|[38](./solution/38.md)|[43](./solution/43.md)|[54](./solution/54.md)|[1267](./solution/1267.md)|[1318](./solution/1318.md)|[1324](./solution/1324.md)|
     |[1329](./solution/1329.md)|[1333](./solution/1333.md)|[1343](./solution/1343.md)|[1344](./solution/1344.md)|[1348](./solution/1348.md)|
-    |[b](./solution/b.md)|[c](./solution/c.md)|[f](./solution/f.md)|
+    |[1386](./solution/1386.md)|[1387](./solution/1387.md)|[1390](./solution/1390.md)|
 * ### Hard
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
@@ -126,6 +126,6 @@
 # ACM
 * 快速幂:[50](./solution/50.md)
 * Tarjan:[1192](./solution/1192.md)
-* 并查集:[1254](./solution/1254.md),[1319](./solution/1319.md),[g](./solution/g.md)
+* 并查集:[1254](./solution/1254.md),[1319](./solution/1319.md),[1391](./solution/1391.md)
 * 数学:[1250](./solution/1250.md)
 * 图论:[1334](./solution/1334.md)
