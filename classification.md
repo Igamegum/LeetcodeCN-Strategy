@@ -19,7 +19,7 @@
     |----|----|----|----|----|----|----|----|
     |[6](./solution/6.md)|[8](./solution/8.md)|[38](./solution/38.md)|[43](./solution/43.md)|[54](./solution/54.md)|[1267](./solution/1267.md)|[1318](./solution/1318.md)|[1324](./solution/1324.md)|
     |[1329](./solution/1329.md)|[1333](./solution/1333.md)|[1343](./solution/1343.md)|[1344](./solution/1344.md)|[1348](./solution/1348.md)|
-    |[1386](./solution/1386.md)|[1387](./solution/1387.md)|[1390](./solution/1390.md)|[1395](./solution/1395.md)|[1396](./solution/1396.md)|
+    |[1386](./solution/1386.md)|[1387](./solution/1387.md)|[1390](./solution/1390.md)|[1395](./solution/1395.md)|[1396](./solution/1396.md)|[f](./solution/f.md)|
 * ### Hard
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
@@ -79,7 +79,7 @@
 * ### Easy
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|[121](./solution/121.md)|[136](./solution/136.md)|[☆1332](./solution/1332.md)|
+    |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|[121](./solution/121.md)|[136](./solution/136.md)|[☆1332](./solution/1332.md)|[e](./solution/e.md)|
 * ### Medium
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
@@ -87,7 +87,7 @@
     |[☆611](./solution/611.md)|[659](./solution/659.md)|[1238](./solution/1238.md)|
     |[1268](./solution/1268.md)|[☆1277](./solution/1277.md)|[1247](./solution/1247.md)|[1248](./solution/1248.md)|[1249](./solution/1249.md)|[1291](./solution/1291.md)|[1292](./solution/1292.md)|[1253](./solution/1253.md)|
     |[1282](./solution/1282.md)|[1296](./solution/1296.md)|[1297](./solution/1297.md)|[1328](./solution/1328.md)|[☆1314](./solution/1314.md)|[☆1347](./solution/1347.md)|[☆1371](./solution/1371.md)|
-    |[☆b](./solution/b.md)|[c](./solution/c.md)|
+    |[☆b](./solution/b.md)|[c](./solution/c.md)|[☆g](./solution/g.md)|
 * ### Hard
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
@@ -122,7 +122,7 @@
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
     |[10](./solution/10.md)|[☆32](./solution/32.md)|[44](./solution/44.md)|[1220](./solution/1220.md)|[1269](./solution/1269.md)|[1278](./solution/1278.md)|[1301](./solution/1301.md)|[☆1312](./solution/1312.md)|
-    |[1335](./solution/1335.md)|
+    |[1335](./solution/1335.md)|[☆h](./solution/h.md)|
 
 # ACM
 * 快速幂:[50](./solution/50.md)

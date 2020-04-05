@@ -1,0 +1,79 @@
+# Problem
+[Link](https://leetcode-cn.com/contest/weekly-contest-183/problems/longest-happy-string/)
+
+# Solution
+
+* 这里我的做法比较复杂，基本上就是一个模拟贪心的过程
+* 将可用的字符放到一个优先队列中，根据字符剩余数量排序，数量多的优先在队列的头部
+* 每次从队头取两个字符，第一个字符用两个，第二个字符用一个，注意好边界的判断即可
+* 时间复杂度O(nlogn)
+
+# Code
+```cpp
+class Solution {
+public:
+    struct Node {
+        Node  (char ch, int num) {
+            this->ch = ch;
+            this->n = num;
+        }
+        const bool operator < (const Node& T) const {
+            return n < T.n; 
+        }
+        char ch;
+        int n;
+    };
+
+    string longestDiverseString(int a, int b, int c) {
+        
+        
+        std::string ans;
+        std::priority_queue<Node> q;
+        if (a) q.push(Node('a', a));
+        if (b) q.push(Node('b', b));
+        if (c) q.push(Node('c', c));
+        char pre_ch = ' ';
+        int pre_num = 0;
+        while (!q.empty()) {
+            Node fi = q.top(); q.pop();
+            Node se(' ', 0);
+            if (q.size()) {se = q.top(); q.pop();}
+            
+            bool has = false;
+            
+            if (fi.n > 1 && (fi.ch != pre_ch || (fi.ch == pre_ch && pre_num + 2 < 3)) ) {
+                ans += fi.ch;
+                ans += fi.ch;
+                fi.n -= 2;
+                pre_num = pre_ch == fi.ch ? pre_num + 2 : 2;
+                pre_ch = fi.ch;
+                has = true;
+            } else if (fi.n > 0 && (fi.ch != pre_ch || (fi.ch == pre_ch && pre_num + 1 < 3))) {
+                ans += fi.ch;
+                fi.n -= 1;
+                pre_num = pre_ch == fi.ch ? pre_num + 1 : 1;
+                pre_ch = fi.ch;
+                has = true;
+            }
+            
+            if (se.n > 0 && (se.ch != pre_ch || (se.ch == pre_ch && pre_num + 1 < 3))) {
+                ans += se.ch;
+                se.n -= 1;
+                pre_num = pre_ch == se.ch ? pre_num + 1 : 1;
+                pre_ch = se.ch;
+                has = true;
+            }
+            
+            if (fi.n) q.push(fi);
+            if (se.n) q.push(se);
+            
+            if (!has) break;
+            
+        }
+        
+        return ans;
+        
+    }
+};
+
+```
