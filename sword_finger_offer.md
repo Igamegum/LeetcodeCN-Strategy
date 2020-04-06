@@ -1,0 +1,8 @@
+* [数组中重复的数字](./sfoffer/03.md)
+* [二维数组中的查找](./sfoffer/04.md)
+* [替换空格](./sfoffer/05.md)
+* [从尾到头打印链表](./sfoffer/06.md)
+* [重建二叉树](./sfoffer/07.md)
+* [用两个栈实现队列](./sfoffer/09.md)
+* [斐波那契数列](./sfoffer/10-I.md)
+* [青蛙跳台阶问题](./sfoffer/10-II.md)

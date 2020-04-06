@@ -79,7 +79,7 @@
 * ### Easy
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|[121](./solution/121.md)|[136](./solution/136.md)|[☆1332](./solution/1332.md)|[e](./solution/e.md)|
+    |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|[121](./solution/121.md)|[136](./solution/136.md)|[746](./solution/746.md)|[☆1332](./solution/1332.md)|
 * ### Medium
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
