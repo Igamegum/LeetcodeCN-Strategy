@@ -1,0 +1,5 @@
+* [LCP-01 猜数字](./lcp/lcp-1.md)
+* [LCP-06 拿硬币](./lcp/lcp-6.md)
+* [LCP-07 传递信息](./lcp/lcp-7.md)
+* [LCP-08 剧情触发时间](./lcp/lcp-8.md)
+* [LCP-09 最小跳跃次数](./lcp/lcp-9.md)

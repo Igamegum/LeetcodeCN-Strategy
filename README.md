@@ -2,6 +2,7 @@
 # Description
 * [题目分类](./classification.md)
 * [剑指offer](./sword_finger_offer.md)
+* [力扣杯](./lcp.md)
 
 # Guide
 ## 刷题顺序
