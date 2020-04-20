@@ -11,15 +11,6 @@
 class Solution {
 public:
     int mod = 1e9 + 7;
-    int calc_pow(const int a, const int x) {
-        if (x == 0) return 1;
-        int val = a;
-        for (int i = 1; i <= x; ++i) {
-            val *= x;
-            val %= mod;
-        }
-        return val;
-    }
     
     int status[110][55][55];
     
