@@ -3,3 +3,5 @@
 * [LCP-07 传递信息](./lcp/lcp-7.md)
 * [LCP-08 剧情触发时间](./lcp/lcp-8.md)
 * [LCP-09 最小跳跃次数](./lcp/lcp-9.md)
+* [LCP-11 期望个数统计](./lcp/lcp-11.md)
+* [LCP-12 小张刷题计划](./lcp/lcp-12.md)
