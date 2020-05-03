@@ -96,7 +96,7 @@
     |----|----|----|----|----|----|----|----|
     |[☆32](./solution/32.md) |[☆41](./solution/41.md)|[☆42](./solution/42.md)|[☆76](./solution/76.md)|[45](./solution/45.md)|[☆84](./solution/84.md)|
     |[85](./solution/85.md)|[128](./solution/128.md)|[135](./solution/135.md)|
-    |[☆862](./solution/862.md)|[☆1326](./solution/1326.md)|[☆1340](./solution/1340.md)|[☆1383](./solution/1383.md)|
+    |[☆862](./solution/862.md)|[☆1326](./solution/1326.md)|[☆1340](./solution/1340.md)|[☆1383](./solution/1383.md)|[☆h](./solution/h.md)|
 
 # 二分
 * ### Easy
@@ -128,7 +128,7 @@
     |----|----|----|----|----|----|----|----|
     |[10](./solution/10.md)|[☆32](./solution/32.md)|[44](./solution/44.md)|[72](./solution/72.md)|
     |[1220](./solution/1220.md)|[1269](./solution/1269.md)|[1278](./solution/1278.md)|[1301](./solution/1301.md)|[☆1312](./solution/1312.md)|
-    |[1335](./solution/1335.md)|[☆1406](./solution/1406.md)|[☆1411](./solution/1411.md)|[1416](./solution/1416.md)|[1425](./solution/1425.md)|
+    |[1335](./solution/1335.md)|[☆1406](./solution/1406.md)|[☆1411](./solution/1411.md)|[1416](./solution/1416.md)|[1425](./solution/1425.md)|[☆d](./solution/d.md)|
 
 # ACM
 * ### 快速幂
