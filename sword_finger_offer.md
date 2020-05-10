@@ -5,4 +5,7 @@
 * [重建二叉树](./sfoffer/07.md)
 * [用两个栈实现队列](./sfoffer/09.md)
 * [斐波那契数列](./sfoffer/10-I.md)
-* [青蛙跳台阶问题](./sfoffer/10-II.md)
+* [旋转数组的最小数字](./sfoffer/11.md)
+* [矩阵中的路径](./sfoffer/12.md)
+* [机器人的运动范围](./sfoffer/13.md)
+* [剪绳子](./sfoffer/14-I.md)
