@@ -23,13 +23,8 @@ public:
 				sum += dfs(id, hasApple);
 			}
 		}
-		int ans = 0;
-		if (sum > 0) {
-			ans = sum;
-			if (root != 0) ++ans;
-		} else  if (hasApple[root]) {
-			ans = 1;
-		}
+        int ans = sum;
+		if ( (root != 0 && hasApple[root]) || (root != 0 && sum > 0) ) ++ans;
 		//std::cout << root << "  " << ans << std::endl;
 		return ans;
 		
