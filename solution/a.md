@@ -1,0 +1,29 @@
+# Problem
+[Link]()
+
+# Solution
+* 直接模拟
+* 时间复杂度O(n)
+
+# Code
+```cpp
+class Solution {
+public:
+    int maxPower(string s) {
+        char ch = ' ';
+        int ans = 1;
+        int cnt = 0;
+        for (int i = 0; i < s.size(); ++i) {
+            if (s[i] != ch) {
+                ans = std::max(ans, cnt);
+                ch = s[i];
+                cnt = 1;
+            } else {
+                ++cnt;
+            }
+        }
+        ans = std::max(ans, cnt);
+        return ans;
+    }
+};
+```
