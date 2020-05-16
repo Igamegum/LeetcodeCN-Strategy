@@ -9,7 +9,7 @@
     |[1295](./solution/1295.md)|[1299](./solution/1299.md)|[1304](./solution/1304.md)|[1309](./solution/1309.md)|[1313](./solution/1313.md)|[1317](./solution/1317.md)|[1323](./solution/1323.md)|[1331](./solution/1331.md)|
     |[1337](./solution/1337.md)|[1338](./solution/1338.md)|[1342](./solution/1342.md)|[1346](./solution/1346.md)|[1351](./solution/1351.md)|[1352](./solution/1352.md)|[1365](./solution/1365.md)|[1366](./solution/1366.md)|
     |[1370](./solution/1370.md)|[1380](./solution/1380.md)|[1381](./solution/1381.md)|[1385](./solution/1385.md)|[1389](./solution/1389.md)|[1394](./solution/1394.md)|[1399](./solution/1399.md)|[1403](./solution/1403.md)|
-    |[1408](./solution/1408.md)|[1417](./solution/1417.md)|[1431](./solution/1431.md)|[1436](./solution/1436.md)|[a](./solution/a.md)|
+    |[1408](./solution/1408.md)|[1417](./solution/1417.md)|[1431](./solution/1431.md)|[1436](./solution/1436.md)|[1441](./solution/1441.md)|
     
     
     
@@ -56,7 +56,7 @@
     |[95](./solution/95.md)|[☆96](./solution/96.md)|[98](./solution/98.md)|[102](./solution/102.md)|[103](./solution/103.md)|[109](./solution/109.md)|[113](./solution/113.md)|[114](./solution/114.md)|
     |[129](./solution/129.md)|[☆☆144](./solution/144.md)|[199](./solution/199.md)|[☆230](./solution/230.md)|
     |[1261](./solution/1261.md)|[1302](./solution/1302.md)|[1305](./solution/1305.md)|[1315](./solution/1315.md)|
-    |[1325](./solution/1325.md)|[1339](./solution/1339.md)|[1367](./solution/1367.md)|[☆1372](./solution/1372.md)|[☆1382](./solution/1382.md)|[☆c](./solution/c.md)|
+    |[1325](./solution/1325.md)|[1339](./solution/1339.md)|[1367](./solution/1367.md)|[☆1372](./solution/1372.md)|[☆1382](./solution/1382.md)|[☆1443](./solution/1443.md)|
 * ### Hard
     |    |    |    |    |    |
     |----|----|----|----|----|
@@ -75,7 +75,7 @@
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
     |[37](./solution/37.md)|[1255](./solution/1255.md)|[1263](./solution/1263.md)|[1284](./solution/1284.md)|[1293](./solution/1293.md)|[☆1307](./solution/1307.md)|[☆1345](./solution/1345.md)|
-    |[☆1420](./solution/1420.md)|[☆d](./solution/d.md)|
+    |[☆1420](./solution/1420.md)|[☆1444](./solution/1444.md)|
 
 
 # 思维题
@@ -83,7 +83,7 @@
     |    |    |    |    |    |
     |----|----|----|----|----|
     |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|[121](./solution/121.md)|[136](./solution/136.md)|[746](./solution/746.md)|[☆1332](./solution/1332.md)|
-    |[1413](./solution/1413.md)|[☆1415](./solution/1415.md)|[b](./solution/b.md)|
+    |[1413](./solution/1413.md)|[☆1415](./solution/1415.md)|[1442](./solution/1442.md)|
 * ### Medium
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
