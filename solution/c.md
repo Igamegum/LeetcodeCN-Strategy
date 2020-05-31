@@ -1,5 +1,5 @@
 # Problem
-[Link]()
+[Link](https://leetcode-cn.com/problems/course-schedule-iv/)
 
 # Solution
 * 分别以N个点为起点DFS，将起点标记为搜过程中的点的先修课程，对于查询可以在O(1)的时间复杂度内完成

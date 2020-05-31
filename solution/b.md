@@ -1,5 +1,5 @@
 # Problem
-[Link]()
+[Link](https://leetcode-cn.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)
 
 # Solution
 * 枚举长度为K的子串，计算其从二进制转为10进制的数字，最后判断出现数字的种类数是否为2的K次方即可

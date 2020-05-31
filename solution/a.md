@@ -1,5 +1,5 @@
 # Problem
-[Link]()
+[Link](https://leetcode-cn.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)
 
 # Solution
 * 显然，每个数字都能变换到任意位置，所以只需要比较每种数字出现的次数是否一样即可
