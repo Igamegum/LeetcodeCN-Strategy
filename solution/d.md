@@ -1,0 +1,85 @@
+# Problem
+[Link]()
+
+# Solution
+* DP,考虑dp[i][c][j]表示第i栋房子涂上颜色c-1形成的街区数为j的最小花费。如果当前房子涂的颜色和前一幢房子的颜色不同，那么就会新增加一个街区，显然当前房子形成的街区数只依赖前一幢房子的街区数和颜色。暴力枚举前一幢房子的颜色和街区数即可。
+* 时间复杂度O(n*m*m*n)
+
+# Code
+```cpp
+class Solution {
+public:
+    const int INF = 1e9 + 7;
+    int dp[110][22][110];
+    
+    void init(const int m, const int n) {
+        for (int i = 0; i <= m + 1; ++i) {
+            for (int j = 0; j <= n + 1; ++j) {
+                for (int k = 0; k <= m + 1; ++k) {
+                    dp[i][j][k] = INF;
+                }
+            }
+        }
+        
+    }
+    
+    int minCost(vector<int>& houses, vector<vector<int>>& cost, int m, int n, int target) {
+        
+        init(m, n);
+        
+        if (houses[0] == 0) {
+            for (int c = 1; c <= n; ++c) {       
+                dp[0][c - 1][1] = cost[0][c - 1];
+            }    
+        } else {
+            dp[0][houses[0] - 1][1] = 0;
+        }
+        
+        
+        for (int i = 1; i < m; ++i) {
+            
+            if (houses[i] == 0)
+            {
+                for (int color = 0; color < n; ++color) {
+                    int fee = cost[i][color];
+                    
+                    for (int j = 1; j <= target; ++j) {
+                        for (int c = 0; c < n; ++c) {
+                            if (c != color) { //增加街区
+                                dp[i][color][j] = std::min(dp[i][color][j], dp[i - 1][c][j - 1] + fee);        
+                            } else { //没有增加街区
+                                dp[i][color][j] = std::min(dp[i][color][j], dp[i - 1][color][j] + fee);
+                            }
+                        }
+                    }
+                }
+                
+            } 
+            else//颜色固定
+            {
+                int fee = 0;
+                int color = houses[i] - 1;
+                
+                for (int j = 1; j <= target; ++j) {
+                    for (int c = 0; c < n; ++c) {
+                        if (c != color) { //增加街区
+                            dp[i][color][j] = std::min(dp[i][color][j], dp[i - 1][c][j - 1] + fee);        
+                        } else { //没有增加街区
+                            dp[i][color][j] = std::min(dp[i][color][j], dp[i - 1][color][j] + fee);
+                       }
+                    }
+                }
+                
+            }
+            
+        }
+        
+        int ans = INF;
+        for (int c = 0; c < n; ++c) {
+            ans = std::min(ans, dp[m - 1][c][target]);
+        }
+        
+        return ans >= INF ? -1 : ans;
+    }
+};
+```

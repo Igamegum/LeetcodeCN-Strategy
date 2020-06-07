@@ -1,0 +1,22 @@
+# Problem
+[Link]()
+
+# Solution
+* 直接模拟
+* 时间复杂度O(n)
+
+# Code
+```cpp
+class Solution {
+public:
+    vector<int> shuffle(vector<int>& nums, int n) {
+        std::vector<int> ans;
+        
+        for (int i = 0; i < n; ++i) {
+            ans.push_back(nums[i]);
+            ans.push_back(nums[i + n]);
+        }
+        return ans;
+    }
+};
+```
