@@ -1,5 +1,5 @@
 # Problem
-[Link]()
+[Link](https://leetcode-cn.com/problems/can-make-arithmetic-progression-from-sequence/)
 
 # Solution
 * 直接模拟
@@ -9,13 +9,16 @@
 ```cpp
 class Solution {
 public:
-    int xorOperation(int n, int start) {
-        int ans = 0;
-        for (int i = 0; i < n; ++i) {
-            int val = start + 2 * i;
-            ans ^= val;
+    bool canMakeArithmeticProgression(vector<int>& arr) {
+        std::sort(arr.begin(), arr.end());
+        bool can = true;
+        for (int i = 2; i < arr.size(); ++i) {
+            if (arr[i] - arr[i - 1] != arr[i - 1] - arr[i - 2]) {
+                can = false;
+                break;
+            }
         }
-        return ans;
+        return can;
     }
 };
 ```
