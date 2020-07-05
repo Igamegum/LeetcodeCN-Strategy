@@ -9,3 +9,5 @@
 * [矩阵中的路径](./sfoffer/12.md)
 * [机器人的运动范围](./sfoffer/13.md)
 * [剪绳子](./sfoffer/14-I.md)
+* [二进制中1的个数](./sfoffer/15.md)
+* [数值的整数次方](./sfoffer/16.md)
