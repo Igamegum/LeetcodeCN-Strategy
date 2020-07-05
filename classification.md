@@ -11,6 +11,7 @@
     |[1370](./solution/1370.md)|[1380](./solution/1380.md)|[1381](./solution/1381.md)|[1385](./solution/1385.md)|[1389](./solution/1389.md)|[1394](./solution/1394.md)|[1399](./solution/1399.md)|[1403](./solution/1403.md)|
     |[1408](./solution/1408.md)|[1417](./solution/1417.md)|[1431](./solution/1431.md)|[1436](./solution/1436.md)|[1441](./solution/1441.md)|[1446](./solution/1446.md)|[1450](./solution/1450.md)|
     |[1455](./solution/1455.md)|[1464](./solution/1464.md)|[1470](./solution/1470.md)|[1480](./solution/1480.md)|[1486](./solution/1486.md)|[1491](./solution/1491.md)|[1492](./solution/1492.md)|[a](./solution/a.md)|
+
     
     
     
@@ -85,19 +86,23 @@
 * ### Easy
     |    |    |    |    |    |
     |----|----|----|----|----|
-    |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|[121](./solution/121.md)|[136](./solution/136.md)|[532](./solution/532.md)|[746](./solution/746.md)|[☆836](./solution/836.md)|
+    |[1](./solution/1.md)|[53](./solution/53.md)|[☆88](./solution/88.md)|[121](./solution/121.md)|[136](./solution/136.md)|[492](./solution/492.md)|
+    |[532](./solution/532.md)|[746](./solution/746.md)|[☆836](./solution/836.md)|
     |[☆1332](./solution/1332.md)|
     |[1413](./solution/1413.md)|[☆1415](./solution/1415.md)|[1442](./solution/1442.md)|[1460](./solution/1460.md)|[1475](./solution/1475.md)|
 * ### Medium
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
-    |[3](./solution/3.md)|[☆15](./solution/15.md)|[31](./solution/31.md)|[☆55](./solution/55.md)|[☆60](./solution/60.md)|[62](./solution/62.md)|[☆735](./solution/735.md)|[238](./solution/238.md)|
-    |[560](./solution/560.md)|[☆611](./solution/611.md)|[659](./solution/659.md)|[703](./solution/703.md)|[713](./solution/713.md)|[☆739](./solution/739.md)|[☆974](./solution/974.md)|[990](./solution/990.md)|
+    |[3](./solution/3.md)|[☆15](./solution/15.md)|[31](./solution/31.md)|[☆55](./solution/55.md)|[☆60](./solution/60.md)|[62](./solution/62.md)|[223](./solution/223.md)|[238](./solution/238.md)|
+    |[560](./solution/560.md)|[☆611](./solution/611.md)|[659](./solution/659.md)|[703](./solution/703.md)|[713](./solution/713.md)|[☆735](./solution/735.md)|
+    |[☆739](./solution/739.md)|[☆974](./solution/974.md)|[990](./solution/990.md)|
     |[1233](./solution/1233.md)|[1234](./solution/1234.md)|[1238](./solution/1238.md)|
     |[1268](./solution/1268.md)|[☆1277](./solution/1277.md)|[1247](./solution/1247.md)|[1248](./solution/1248.md)|[1249](./solution/1249.md)|[1291](./solution/1291.md)|[1292](./solution/1292.md)|[1253](./solution/1253.md)|
     |[1282](./solution/1282.md)|[1296](./solution/1296.md)|[1297](./solution/1297.md)|[1328](./solution/1328.md)|[☆1314](./solution/1314.md)|[☆1347](./solution/1347.md)|[☆1371](./solution/1371.md)|
     |[☆1400](./solution/1400.md)|[1401](./solution/1401.md)|[☆1405](./solution/1405.md)|[1419](./solution/1419.md)|[1433](./solution/1433.md)|[☆1438](./solution/1438.md)|[☆1461](./solution/1461.md)|[☆1466](./solution/1466.md)|
     |[1471](./solution/1471.md)|[1472](./solution/1472.md)|[1477](./solution/1477.md)|[1482](./solution/1482.md)|[1488](./solution/1488.md)|[1493](./solution/1493.md)|[☆b](./solution/b.md)|[☆c](./solution/c.md)|
+
+
 * ### Hard
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
