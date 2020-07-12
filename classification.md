@@ -11,7 +11,7 @@
     |[1370](./solution/1370.md)|[1380](./solution/1380.md)|[1381](./solution/1381.md)|[1385](./solution/1385.md)|[1389](./solution/1389.md)|[1394](./solution/1394.md)|[1399](./solution/1399.md)|[1403](./solution/1403.md)|
     |[1408](./solution/1408.md)|[1417](./solution/1417.md)|[1431](./solution/1431.md)|[1436](./solution/1436.md)|[1441](./solution/1441.md)|[1446](./solution/1446.md)|[1450](./solution/1450.md)|
     |[1455](./solution/1455.md)|[1464](./solution/1464.md)|[1470](./solution/1470.md)|[1480](./solution/1480.md)|[1486](./solution/1486.md)|[1491](./solution/1491.md)|[1492](./solution/1492.md)|[1502](./solution/1502.md)|
-    |[a](./solution/a.md)|
+    |[a](./solution/a.md)|[e](./solution/e.md)|
 
     
     
@@ -74,7 +74,7 @@
     |    |    |    |    |    |    |    |    |
     |----|----|----|----|----|----|----|----|
     |[17](./solution/17.md)|[22](./solution/22.md)|[39](./solution/39.md)|[☆40](./solution/40.md)|[46](./solution/46.md)|[47](./solution/47.md)|[77](./solution/77.md)|[78](./solution/78.md)|
-    |[79](./solution/79.md)|[93](./solution/93.md)|[1239](./solution/1239.md)|[1306](./solution/1306.md)|[1311](./solution/1311.md)|[☆1462](./solution/1462.md)|
+    |[79](./solution/79.md)|[93](./solution/93.md)|[1239](./solution/1239.md)|[1306](./solution/1306.md)|[1311](./solution/1311.md)|[☆1462](./solution/1462.md)|[g](./solution/g.md)|
     
 * ### Hard
     |    |    |    |    |    |    |    |    |
@@ -103,6 +103,7 @@
     |[1282](./solution/1282.md)|[1296](./solution/1296.md)|[1297](./solution/1297.md)|[1328](./solution/1328.md)|[☆1314](./solution/1314.md)|[☆1347](./solution/1347.md)|[☆1371](./solution/1371.md)|
     |[☆1400](./solution/1400.md)|[1401](./solution/1401.md)|[☆1405](./solution/1405.md)|[1419](./solution/1419.md)|[1433](./solution/1433.md)|[☆1438](./solution/1438.md)|[☆1461](./solution/1461.md)|[☆1466](./solution/1466.md)|
     |[1471](./solution/1471.md)|[1472](./solution/1472.md)|[1477](./solution/1477.md)|[1482](./solution/1482.md)|[1488](./solution/1488.md)|[1493](./solution/1493.md)|[☆1503](./solution/1503.md)|[☆1504](./solution/1504.md)|
+    |[f](./solution/f.md)|
 
 
 * ### Hard
