@@ -1,37 +1,51 @@
-# Problem
-[Link](https://leetcode-cn.com/problems/range-sum-of-sorted-subarray-sums/)
+ # Problem
+[Link]()
 
 # Solution
-* 枚举区间的左端点和右端点，利用前缀和在O(1)的时间复杂度内求区间和
-* 时间复杂度：O(n*n)
+* 直接DFS
+* 时间复杂度：O(n*26)
 
 # Code
 ```cpp
 class Solution {
 public:
-    int rangeSum(vector<int>& nums, int n, int left, int right) {
+    std::vector<int> ans;
+    std::vector< std::vector<int> > E;
+    std::vector<bool> vis;
+    
+    int parse(char ch) {
+        return ch - 'a';
+    }
+    std::vector<int> DFS(int root, const string& labels) {
+        vis[root] = true;
+        std::vector<int> mp(26, 0);
+        ++mp[parse(labels[root])];
         
-        for (int i = 1; i < n; ++i) {
-            nums[i] += nums[i - 1];
-        }
-        
-        std::vector<int> sq;
-        //int n = nums.size();
-        for (int i = 0; i < n; ++i) {
-            for (int j = i; j < n; ++j) {
-                int lhs = i == 0 ? 0 : nums[i - 1];
-                sq.push_back(nums[j] - lhs);
+        for (int i = 0; i < E[root].size(); ++i) {
+            if (!vis[E[root][i]]) {
+                std::vector<int> tp = DFS(E[root][i], labels);
+                for (int i = 0; i < 26; ++i) {
+                    mp[i] += tp[i];
+                }
             }
         }
-        long long mod = 1e9 + 7;
-        long long ans = 0;
-        std::sort(sq.begin(), sq.end());
-        for (int i = left - 1; i < right; ++i) {
-            ans += sq[i];
-            ans %= mod;
+        ans[root] = mp[parse(labels[root])];
+        return mp;
+    }
+        
+    vector<int> countSubTrees(int n, vector<vector<int>>& edges, string labels) {
+        
+        ans = std::vector<int>(n, 1);
+        vis = std::vector<bool>(n, false);
+        E = std::vector< std::vector<int> >(n, std::vector<int>(0));
+        for (int i = 0; i < edges.size(); ++i) {
+            int a = edges[i][0];
+            int b = edges[i][1];
+            E[a].push_back(b);
+            E[b].push_back(a);
         }
+        DFS(0, labels);
         return ans;
     }
 };
-
 ```
