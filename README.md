@@ -1,10 +1,12 @@
 
 # Description
 * [题目分类](./classification.md)
-* [剑指offer](./sword_finger_offer.md)
-* [程序员面试金典](./cxymsjd.md)
-* [力扣杯](./lcp.md)
+* [剑指offer](./sfoffer/sword_finger_offer.md)
+* [程序员面试金典](./cxymsjd/cxymsjd.md)
+* [力扣杯](./lcp/lcp.md)
 * [第K大专题](./kth.md)
+* [非递归专题](./tree.md)
+* [高频面试题](./hot.md)
 
 # Guide
 ## 刷题顺序
