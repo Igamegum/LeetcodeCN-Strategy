@@ -1,5 +1,5 @@
 # Problem
-[Link]()
+[Link](https://leetcode-cn.com/problems/number-of-good-ways-to-split-a-string/)
 
 # Solution
 * 利用前缀和和后缀和的思想，分别维护以i为结尾的前缀和后缀中不同的字符的数量，接着枚举切割点即可

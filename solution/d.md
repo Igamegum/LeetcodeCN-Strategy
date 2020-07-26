@@ -1,5 +1,5 @@
 # Problem
-[Link]()
+[Link](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
 
 # Solution
 * 智商题，考虑维护一个前缀最大值，表示这个连续需要的操作次数。
