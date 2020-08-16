@@ -1,0 +1,63 @@
+# Problem
+[Link]()
+
+# Solution
+* 直接搜索即可，由于n下降得很快，所以趋近于一个小于logn的复杂度
+* 时间复杂度：O(logn)
+
+# Code
+```cpp
+class Solution {
+public:
+    struct Node {
+        int val;
+        int cnt;
+        Node(int val, int cnt) {
+            this->val = val;
+            this->cnt = cnt;
+        }  
+        const bool operator < (const Node& T) const {
+            if (cnt != T.cnt) return cnt > T.cnt;
+            return val > T.val;
+        }
+    };
+    
+    int BFS(int n) {
+        std::priority_queue<Node> q;
+        q.push(Node(n, 0));
+        std::map<int, int> S;
+        S[n] = 0;
+        
+        while (!q.empty()) {
+            Node node = q.top();
+            q.pop();
+            if (node.val <= 0) return node.cnt;    
+            if (node.val - 1 >= 0 && (S.find(node.val - 1) == S.end() || S[node.val - 1] > node.cnt + 1)) {
+                S[node.val - 1] = node.cnt + 1;
+                q.push(Node(node.val - 1, node.cnt + 1));
+            }
+            if (node.val % 2 == 0 && node.val - node.val / 2 >= 0 && (S.find(node.val - node.val / 2) == S.end() || S[node.val - node.val / 2] > node.cnt + 1)) {
+                S[node.val - node.val / 2] = node.cnt + 1;
+                q.push(Node(node.val - node.val / 2, node.cnt + 1));
+            }
+            if (node.val % 3 == 0 && node.val - 2 * (node.val / 3) >= 0 && (S.find(node.val - 2 * (node.val / 3)) == S.end() || S[node.val - 2 * (node.val / 3)] > node.cnt + 1)) {
+                S[node.val - 2 * (node.val / 3)] = node.cnt + 1;
+                q.push(Node(node.val - 2 * (node.val / 3), node.cnt + 1));
+            }
+        }
+        return n;
+    }
+    int minDays(int n) {
+        return BFS(n);
+    }
+};
+/*
+10
+6
+1
+56
+2000000000
+5
+9209408
+*/
+```

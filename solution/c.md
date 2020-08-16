@@ -1,0 +1,46 @@
+# Problem
+[Link]()
+
+# Solution
+* 排序之后直接二分答案即可
+* 时间复杂度：O(n*log(1e9))
+
+# Code
+```cpp
+class Solution {
+public:
+    std::map<int, int> tatal;
+    bool check(vector<int>& position, int m, int v) {
+        
+        int n = position.size();
+        if (n <= 1) return true;
+        int cnt = 1;
+        int prev = position[0];
+        for (int i = 1; i < n; ++i) {
+            if (std::abs(position[i] - prev) >= v) {
+                prev = position[i];
+                ++cnt;
+                if (cnt >= m) return true;
+            }
+        }
+        return cnt >= m;
+    }
+    
+    int maxDistance(vector<int>& position, int m) {
+        std::sort(position.begin(), position.end());
+        int L = 0;
+        int R = 1e9;
+        int ans = 0;
+        while (L <= R) {
+            int mid = (L + R) >> 1;
+            if (check(position, m, mid)) {
+                ans = std::max(ans, mid);
+                L = mid + 1;
+            } else {
+                R = mid - 1;
+            }
+        }
+        return ans;
+    }
+};
+```

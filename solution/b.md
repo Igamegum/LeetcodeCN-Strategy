@@ -1,0 +1,25 @@
+# Problem
+[Link]()
+
+# Solution
+* 目标值一定是最大值和最小值之间的平均值，记录每个数变成目标值需要的操作数，然后总和除2即可
+* 时间复杂度：O(n*n)
+
+# Code
+```cpp
+class Solution {
+public:
+    int minOperations(int n) {
+        if (n == 1) return 0;
+        int L = 1;
+        int R = (n - 1) * 2 + 1;
+        int sum = 0;
+        int val = (L + R) >> 1;
+        for (int i = 0; i < n; ++i) {
+            int v = (i) * 2 + 1;
+            sum += abs(v - val);
+        }
+        return sum / 2;
+    }
+};
+```
