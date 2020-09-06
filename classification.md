@@ -151,12 +151,9 @@
 * ### Tarjan
     * [1192](./solution/1192.md)
 * ### 并查集
-    * [☆130](./solution/130.md)
-    * [785](./solution/785.md)
-    * [1254](./solution/1254.md)
-    * [1319](./solution/1319.md)
-    * [1391](./solution/1391.md)
-    * [h](./solution/h.md)
+    |    |    |    |    |    |    |
+    |----:|----:|----:|----:|----:|----:|
+    |[☆130](./solution/130.md)|[785](./solution/785.md)|[1254](./solution/1254.md)|[1319](./solution/1319.md)|[1391](./solution/1391.md)|[☆h](./solution/h.md)|
 * ### 数学
     * [1250](./solution/1250.md)
 * ### 图论
