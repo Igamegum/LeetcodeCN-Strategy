@@ -1,0 +1,106 @@
+# Problem
+[Link]()
+
+# Solution
+* 贪心并查集
+* 首先边分为私有边和公有边，直接剔除掉和公有边重复的私有边
+* 接着对所有的公有边做一次并查集，对于不能改变当前集合数量的边，直接剔除
+* 接着在公有边的基础上，分别对私有边做合并操作，对于不能改变当前集合数量的边，直接剔除
+* 时间复杂度：O(n*logn)
+
+# Code
+```cpp
+class Solution {
+public:
+    
+    void init(std::vector<int>& bin) {
+        for (int i = 0; i < bin.size(); ++i) bin[i] = i;
+    }
+    int find(int x, std::vector<int>& bin) {
+        return bin[x] == x ? bin[x] : bin[x] = find(bin[x], bin);
+    }
+    bool merge(int x, int y, std::vector<int>& bin) {
+        int fx = find(x, bin);
+        int fy = find(y, bin);
+        if (fx == fy) return false;
+        bin[fx] = fy;
+        return true;
+    }
+    int maxNumEdgesToRemove(int n, vector<vector<int>>& edges) {
+        
+        typedef std::pair<int, int> E;
+        std::vector<E> comm;
+        std::vector<E> a;
+        std::vector<E> b;
+        std::set<E> repeat;
+        for (int i = 0; i < edges.size(); ++i) {
+            if (edges[i][0] == 1) a.push_back( std::make_pair(edges[i][1], edges[i][2]) );
+            else if (edges[i][0] == 2) b.push_back( std::make_pair(edges[i][1], edges[i][2]) );
+            else {
+                comm.push_back( std::make_pair(edges[i][1], edges[i][2]) );
+                repeat.insert( std::make_pair(edges[i][1], edges[i][2]) );
+                repeat.insert( std::make_pair(edges[i][2], edges[i][1]) );
+            }
+        }
+        //std::cout << "debug" << std::endl;
+        int ans = 0;
+        for (int i = 0; i < a.size(); ++i) {
+            if (repeat.find(a[i]) != repeat.end()) {
+                //std::cout << "delete here a" << a[i].first << "  " << a[i].second << std::endl;
+                a[i].first = -1;
+                a[i].second = -1;
+                ++ans;
+                
+            }
+        }
+        
+        for (int i = 0; i < b.size(); ++i) {
+            if (repeat.find(b[i]) != repeat.end()) {
+                //std::cout << "delete here  b" << b[i].first << "  " << b[i].second << std::endl;
+                b[i].first = -1;
+                b[i].second = -1;
+                ++ans;
+                
+            }
+        }
+        //std::cout << ans << std::endl;
+        std::vector<int> bin(n + 1, 0);
+        init(bin);
+        for (int i = 0; i < comm.size(); ++i) {
+            bool res = merge(comm[i].first, comm[i].second, bin);
+            if (!res) ++ans;
+        }
+        
+        std::vector<int> abin = bin;
+        for (int i = 0; i < a.size(); ++i) {
+            if (a[i].first != -1 && a[i].second != -1) {
+                bool res = merge(a[i].first, a[i].second, abin);
+                if (!res) ++ans;
+            }
+        }
+        
+        std::set<int> aset;
+        for (int i = 1; i <= n; ++i) {
+            aset.insert(find(i, abin));
+        }
+        if (aset.size() > 1) return -1;
+        
+        std::vector<int> bbin = bin;
+        for (int i = 0; i < b.size(); ++i) {
+            if (b[i].first != -1 && b[i].second != -1) {
+                bool res = merge(b[i].first, b[i].second, bbin);
+                if (!res) ++ans;
+            }
+        }
+        
+        
+        std::set<int> bset;
+        for (int i = 1; i <= n; ++i) {
+            bset.insert(find(i, bbin));
+        }
+        if (bset.size() > 1) return -1;
+        
+        return ans;
+    }
+};
+```

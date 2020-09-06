@@ -1,0 +1,30 @@
+# Problem
+[Link]()
+
+# Solution
+* 直接贪心模拟即可
+* 时间复杂度：O(n*)
+
+# Code
+```cpp
+class Solution {
+public:
+    int minCost(string s, vector<int>& cost) {
+        int ans = 0;
+        int prev = 0;
+        for (int curr = 1; curr < s.size(); ++curr) {
+            if (s[curr] == s[prev]) {
+                if (cost[curr] <= cost[prev]) {
+                    ans += cost[curr];
+                } else {
+                    ans += cost[prev];
+                    prev = curr;
+                }
+            } else {
+                prev = curr;
+            }
+        }
+        return ans;
+    }
+};
+```
