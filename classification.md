@@ -12,7 +12,7 @@
     |[1408](./solution/1408.md)|[1417](./solution/1417.md)|[1422](./solution/1422.md)|[1431](./solution/1431.md)|[1436](./solution/1436.md)|[1441](./solution/1441.md)|[1446](./solution/1446.md)|[1450](./solution/1450.md)|
     |[1455](./solution/1455.md)|[1464](./solution/1464.md)|[1470](./solution/1470.md)|[1480](./solution/1480.md)|[1486](./solution/1486.md)|[1491](./solution/1491.md)|[1492](./solution/1492.md)|[1502](./solution/1502.md)|
     |[1507](./solution/1507.md)|[1512](./solution/1512.md)|[1518](./solution/1518.md)|[1523](./solution/1523.md)|[1528](./solution/1528.md)|[1539](./solution/1539.md)|[1544](./solution/1544.md)|[1550](./solution/1550.md)|
-    |[1560](./solution/1560.md)|[a](./solution/a.md)|[e](./solution/e.md)|
+    |[1560](./solution/1560.md)|[1572](./solution/1572.md)|[1576](./solution/1576.md)|
 
     
     
@@ -101,7 +101,7 @@
     |[☆1405](./solution/1405.md)|[1419](./solution/1419.md)|[1423](./solution/1423.md)|[1424](./solution/1424.md)|[1433](./solution/1433.md)|[☆1438](./solution/1438.md)|[☆1461](./solution/1461.md)|[☆1466](./solution/1466.md)|
     |[1471](./solution/1471.md)|[1472](./solution/1472.md)|[1477](./solution/1477.md)|[1482](./solution/1482.md)|[1488](./solution/1488.md)|[1493](./solution/1493.md)|[☆1503](./solution/1503.md)|[☆1504](./solution/1504.md)|
     |[1513](./solution/1513.md)|[1525](./solution/1525.md)|[☆1529](./solution/1529.md)|[☆1540](./solution/1540.md)|[☆1541](./solution/1541.md)|[☆1545](./solution/1545.md)|[☆1546](./solution/1546.md)|[1551](./solution/1551.md)|
-    |[1552](./solution/1552.md)|[1561](./solution/1561.md)|[1562](./solution/1562.md)|[☆b](./solution/b.md)|[☆c](./solution/c.md)|[☆f](./solution/f.md)|[g](./solution/g.md)|
+    |[1552](./solution/1552.md)|[1561](./solution/1561.md)|[1562](./solution/1562.md)|[☆1573](./solution/1573.md)|[☆1574](./solution/1574.md)|[☆1577](./solution/1577.md)|[1578](./solution/1578.md)|
 
 
 * ### Hard
@@ -153,7 +153,7 @@
 * ### 并查集
     |    |    |    |    |    |    |
     |----:|----:|----:|----:|----:|----:|
-    |[☆130](./solution/130.md)|[785](./solution/785.md)|[1254](./solution/1254.md)|[1319](./solution/1319.md)|[1391](./solution/1391.md)|[☆h](./solution/h.md)|
+    |[☆130](./solution/130.md)|[785](./solution/785.md)|[1254](./solution/1254.md)|[1319](./solution/1319.md)|[1391](./solution/1391.md)|[☆1579](./solution/1579.md)|
 * ### 数学
     * [1250](./solution/1250.md)
 * ### 图论
