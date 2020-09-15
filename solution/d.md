@@ -34,22 +34,22 @@ public:
 			for (int i = ml; i <= mr; ++i) ++ths[t[i] - '0'];
 			int sr = ml;
 			++shs[s[sr] - '0'];
-			while (cover(shs, ths) == false && sr  + 1 < s.size()) {
+			while (cover(shs, ths) == false && sr + 1 < s.size()) {
 				++sr;
 				++shs[s[sr] - '0'];
 			}
 			if (cover(shs, ths) == false) return false;
-            int st = ml;
-            std::vector<int> tmp(10, 0);
-            for (int i = ml; i <= sr; ++i) {
-                int val = s[i] - '0';
-                ++tmp[val];
-                if (tmp[val] > ths[val]) {
-                    st = i;
-                    break;
-                }
-            }
-            std::sort(s.begin() + st, s.begin() + sr + 1);
+			int st = ml;
+			std::vector<int> tmp(10, 0);
+			for (int i = ml; i <= sr; ++i) {
+				int val = s[i] - '0';
+				++tmp[val];
+				if (tmp[val] > ths[val]) {
+					st = i;
+					break;
+				}
+			}
+			std::sort(s.begin() + st, s.begin() + sr + 1);
 			std::sort(s.begin() + ml, s.begin() + mr + 1);
 			for (int i = ml; i <= mr; ++i) {
 				if (s[i] != t[i]) return false;
