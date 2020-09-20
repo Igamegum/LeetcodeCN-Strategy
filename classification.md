@@ -12,7 +12,7 @@
     |[1408](./solution/1408.md)|[1417](./solution/1417.md)|[1422](./solution/1422.md)|[1431](./solution/1431.md)|[1436](./solution/1436.md)|[1441](./solution/1441.md)|[1446](./solution/1446.md)|[1450](./solution/1450.md)|
     |[1455](./solution/1455.md)|[1464](./solution/1464.md)|[1470](./solution/1470.md)|[1480](./solution/1480.md)|[1486](./solution/1486.md)|[1491](./solution/1491.md)|[1492](./solution/1492.md)|[1502](./solution/1502.md)|
     |[1507](./solution/1507.md)|[1512](./solution/1512.md)|[1518](./solution/1518.md)|[1523](./solution/1523.md)|[1528](./solution/1528.md)|[1539](./solution/1539.md)|[1544](./solution/1544.md)|[1550](./solution/1550.md)|
-    |[1560](./solution/1560.md)|[1572](./solution/1572.md)|[1576](./solution/1576.md)|[a](./solution/a.md)|
+    |[1560](./solution/1560.md)|[1572](./solution/1572.md)|[1576](./solution/1576.md)|[1582](./solution/1582.md)|
 
     
     
@@ -25,7 +25,7 @@
     |[1329](./solution/1329.md)|[1333](./solution/1333.md)|[1343](./solution/1343.md)|[1344](./solution/1344.md)|[1348](./solution/1348.md)|[1386](./solution/1386.md)|[1387](./solution/1387.md)|[1390](./solution/1390.md)|
     |[1395](./solution/1395.md)|[1396](./solution/1396.md)|[1404](./solution/1404.md)|[1409](./solution/1409.md)|[1410](./solution/1410.md)|[1418](./solution/1418.md)|[1432](./solution/1432.md)|[1437](./solution/1437.md)|
     |[1447](./solution/1447.md)|[1451](./solution/1451.md)|[1452](./solution/1452.md)|[1456](./solution/1456.md)|[1465](./solution/1465.md)|[1476](./solution/1476.md)|[1481](./solution/1481.md)|[☆1487](./solution/1487.md)|
-    |[b](./solution/b.md)|
+    |[1583](./solution/1583.md)|
 * ### Hard
     |    |    |    |    |    |    |    |    |
     |----:|----:|----:|----:|----:|----:|----:|----:|
@@ -110,7 +110,7 @@
     |----:|----:|----:|----:|----:|----:|----:|----:|
     |[☆32](./solution/32.md) |[☆41](./solution/41.md)|[☆42](./solution/42.md)|[☆76](./solution/76.md)|[45](./solution/45.md)|[☆84](./solution/84.md)|[85](./solution/85.md)|[128](./solution/128.md)|
     |[135](./solution/135.md)|[☆410](./solution/410.md)|[☆862](./solution/862.md)|[☆1326](./solution/1326.md)|[☆1340](./solution/1340.md)|[☆1383](./solution/1383.md)|[☆1439](./solution/1439.md)|[☆1483](./solution/1483.md)|
-    |[☆1526](./solution/1526.md)|[☆d](./solution/d.md)|
+    |[☆1526](./solution/1526.md)|[☆1585](./solution/1585.md)|
 
 # 二分
 * ### Easy
@@ -154,7 +154,7 @@
 * ### 并查集
     |    |    |    |    |    |    |    |
     |----:|----:|----:|----:|----:|----:|----:|
-    |[☆130](./solution/130.md)|[785](./solution/785.md)|[1254](./solution/1254.md)|[1319](./solution/1319.md)|[1391](./solution/1391.md)|[☆1579](./solution/1579.md)|[c](./solution/c.md)|
+    |[☆130](./solution/130.md)|[785](./solution/785.md)|[1254](./solution/1254.md)|[1319](./solution/1319.md)|[1391](./solution/1391.md)|[☆1579](./solution/1579.md)|[1584](./solution/1584.md)|
 * ### 数学
     * [1250](./solution/1250.md)
 * ### 图论
