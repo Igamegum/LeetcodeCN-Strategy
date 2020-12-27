@@ -19,5 +19,6 @@
 6. 刷DP题，DP属于思维题里面比较难的分类，题型广，难度深，掌握难，但面试中一般不会考特别难的，多刷掌握题感就好，这部分就看个人造化了
 7. ACM部分选刷
 
-## 刷题技巧
+## Leetcode Account
+* [igamegum](https://leetcode-cn.com/u/igamegum/)
 
