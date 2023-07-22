@@ -109,8 +109,8 @@
     |    |    |    |    |    |    |    |    |
     |----:|----:|----:|----:|----:|----:|----:|----:|
     |[☆32](./solution/32.md) |[☆41](./solution/41.md)|[☆42](./solution/42.md)|[☆76](./solution/76.md)|[45](./solution/45.md)|[☆84](./solution/84.md)|[85](./solution/85.md)|[128](./solution/128.md)|
-    |[135](./solution/135.md)|[☆410](./solution/410.md)|[☆862](./solution/862.md)|[☆1326](./solution/1326.md)|[☆1340](./solution/1340.md)|[☆1383](./solution/1383.md)|[☆1439](./solution/1439.md)|[☆1483](./solution/1483.md)|
-    |[☆1526](./solution/1526.md)|[☆1585](./solution/1585.md)|
+    |[135](./solution/135.md)|[☆239](./solution/239.md)|[☆410](./solution/410.md)|[☆862](./solution/862.md)|[☆1326](./solution/1326.md)|[☆1340](./solution/1340.md)|[☆1383](./solution/1383.md)|[☆1439](./solution/1439.md)|
+    |[☆1483](./solution/1483.md)|[☆1526](./solution/1526.md)|[☆1585](./solution/1585.md)|
 
 # 二分
 * ### Easy
